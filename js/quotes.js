@@ -56,4 +56,4 @@ const todayOffset = Math.floor(Math.random() * quotes.length);
 const todayQuote = quotes[todayOffset];
 
 quote.innerText = todayQuote.quote;
-author.innerText = todayQuote.author;
+author.innerText = `# ${todayQuote.author}`;
